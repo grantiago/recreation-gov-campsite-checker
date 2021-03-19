@@ -1,0 +1,27 @@
+{
+	"payload": {
+		"permit_id": "234623",
+		"next_available_date": "2021-04-30T00:00:00Z",
+		"date_availability": {
+			"2021-04-30T00:00:00Z": {
+				"total": 7,
+				"remaining": 4,
+				"show_walkup": false,
+				"is_secret_quota": false
+			},
+			"2021-05-01T00:00:00Z": {
+				"total": 7,
+				"remaining": 0,
+				"show_walkup": false,
+				"is_secret_quota": false
+			},
+			"2021-05-02T00:00:00Z": {
+				"total": 7,
+				"remaining": 0,
+				"show_walkup": false,
+				"is_secret_quota": false
+			}
+		},
+		"quota_type_maps": {}
+	}
+}
