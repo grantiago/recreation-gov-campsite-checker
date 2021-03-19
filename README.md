@@ -45,10 +45,9 @@ There are campsites available from 2020-06-01 to 2020-06-30!!!
 🏕 CHISOS BASIN (BIG BEND) (234038): 13 site(s) available out of 62 site(s)
 ```
 
-## Getting park IDs
-What you'll want to do is go to https://recreation.gov and search for the campground you want. Click on it in the search sidebar. This should take you to a page for that campground, the URL will look like `https://www.recreation.gov/camping/campgrounds/<number>`. That number is the park ID.
+## Getting the url and the json
+go to https://recreation.gov and search for the campground. right click -> inspect.  Go to the network tab. you might have to reload it. click on xhr. filter with "availability" that will give you the json date for the permit / campsite. copy the url. 
 
-You can also take [this site for a spin](https://pastudan.github.io/national-parks/). Thanks to [pastudan](https://github.com/pastudan)!
 
 ## Installation
 
