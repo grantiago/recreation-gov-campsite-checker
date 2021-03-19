@@ -1,10 +1,22 @@
 # Campsite Availability Scraping
 
+the permit url:
+
+> https://www.recreation.gov/api/permits/234624/divisions/378/availability?start_date=2021-06-11T00:00:00.000Z&end_date=2021-12-31T00:00:00.000Z&commercial_acct=false&is_lottery=false
+
+selway 234624
+
+division 378
+
+middle fork 234623
+
+divisions 377
+
+added urlcheck.py
+
 **This has been updated to work with the new recreation.gov site and API!!!**
 
 This script scrapes the https://recreation.gov website for campsite availabilities.
-
-**Note:** Please don't abuse this script. Most folks out there don't know how to run scrapers against websites, so you're at an unfair advantage by using this.
 
 ## Example Usage
 ```
